@@ -1,0 +1,20 @@
+{
+    "quickDoc": {
+      "variablesAndFunctions": {
+       "prompts": [
+  {
+    "title": "Usage Example",
+    "question": "Can you provide a usage example for this function?"
+  }
+]
+      }
+    },
+    "ai": {
+      "contextPrompt": "Provide a high-level overview of this file's purpose and its role in the project.",
+      "contextDirs": ["src", "lib"]
+    },
+    "gitHubApp": {
+      "workflows": ["generateDocs"]
+    },
+    "integrations": ["google_drive", "notion"]
+  }
